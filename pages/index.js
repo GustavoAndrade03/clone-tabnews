@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+function teste() {
+  return console.log("teste");
+}
+
 function Home() {
   const [mostrarModal, setMostrarModal] = useState(false);
 
